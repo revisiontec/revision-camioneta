@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)file:///C:/Users/Dycaira/Desktop/COSAS/REVISIONES/CHV.html -->
+<html class="ui-mobile"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!--<base href="file:///C:/Users/Dycaira/Desktop/COSAS/REVISIONES/CHV.html">--><base href=".">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>Datos  Revision Tecnica</title> 
+	<link rel="stylesheet" href="./Datos Revision Tecnica_files/jquery.mobile-1.0rc2.min.css"> 
+   
+	
+  	
+  	<script src="./Datos Revision Tecnica_files/jquery-1.6.4.min.js.descarga"></script>  
+      
+    <script src="file:///C:/Users/Dycaira/Desktop/COSAS/Scripts/prts.min.js" type="text/javascript"></script>
+             <script src="./Datos Revision Tecnica_files/jquery.mobile-1.0rc2.min.js.descarga"></script>
+      
+    
+     
+       
+          
+     
+
+    
+    <script src="file:///C:/Users/Dycaira/Desktop/COSAS/REVISIONES/h" async="" defer=""></script> 
+   
+ <style>
+    /* already defined in bootstrap4 */
+    .text-xs-center {
+        text-align: center;
+    }
+
+    .g-recaptcha {
+        display: inline-block;
+    }
+</style>
+<script type="text/javascript">
+    var your_site_key = '6LdXJTQmAAAAACq-_NmMgK0j9zS1me4HyDZB_L-S';
+    var renderRecaptcha = function () {
+        grecaptcha.render('ReCaptchContainer', {
+            'sitekey': your_site_key,
+            'callback': reCaptchaCallback,
+            theme: 'light', //light or dark    
+            type: 'image',// image or audio    
+            size: 'normal'//normal or compact    
+        });
+    };
+
+    var reCaptchaCallback = function (response) {
+        if (response !== '') {
+            jQuery('#lblMessage').css('color', 'green').html('Correcto');
+        }
+    };
+
+    jQuery('button[type="button"]').click(function (e) {
+        var message = 'Por favor marque la casilla';
+        if (typeof (grecaptcha) != 'undefined') {
+            var response = grecaptcha.getResponse();
+            (response.length === 0) ? (message = 'Fallo en la Verificacion Captcha') : (message = 'Correcto!');
+        }
+        jQuery('#lblMessage').html(message);
+        jQuery('#lblMessage').css('color', (message.toLowerCase() == 'Correcto!') ? "green" : "red");
+    });
+
+</script>  
+<style type="text/css">
+table.altrowstable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #a9c6c9;
+	border-collapse: collapse;
+
+}
+table.altrowstable th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+table.altrowstable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+.oddrowcolor{
+	background-color:#d4e3e5;
+}
+.evenrowcolor{
+	background-color:#c3dde0;
+}
+#certificadoRT{
+	/*display:none;*/
+}
+#waiter{
+	padding:4em;
+	text-align:center;
+}
+</style>
+
+
+</head> 
+<body>
+    <form method="post" action="file:///C:/Users/Dycaira/Desktop/COSAS/REVISIONES/QRRevisionTecnica.aspx?patente=vf1371" id="mForm" class="ui-mobile-viewport">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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">
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="DB7498F6">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="SwCPCySQDe12iOdIwqloawHwLg8oO6OuIWDnCLSg5ZXvRusDbMCR2Ib41eGb5NAljfGAvFwJDcwcyCwQ9HJWVA7VJoLILP63MvDSMBtlWGvqVuEtC2mAliYkO8ACHEoNN/ZydnmvRcxO6oo679lt25Vg1IQeOvhgZxfX6vWhS91rkR3T">
+</div>
+   <div data-role="page" data-url="/C:/Users/Dycaira/Desktop/COSAS/REVISIONES/CHV.html" tabindex="0" class="ui-page ui-body-c ui-page-active" style="min-height: 695px;">
+		
+    <input type="hidden" name="ctl00$MainContent$hddPPU" id="MainContent_hddPPU" value="vf1371">
+   
+    <div class="text-xs-center">
+        <div id="ReCaptchContainer" class="g-recaptcha">
+                 
+   
+        </div>  
+         
+        </div>
+     <div class="text-xs-center"> <label id="lblMessage"></label> <br>    </div>
+   
+     <div data-theme="c" class="ui-btn ui-btn-corner-all ui-shadow ui-btn-up-c" aria-disabled="false"><span class="ui-btn-inner ui-btn-corner-all" aria-hidden="true"><span class="ui-btn-text">Enviar</span></span><input type="submit" name="ctl00$MainContent$btn_verificar" value="Enviar" id="MainContent_btn_verificar" class="ui-btn-hidden" aria-disabled="false"></div>
+   
+
+   
+<div data-role="header" data-theme="b" class="ui-header ui-bar-b" role="banner">
+		<h1 class="ui-title" tabindex="0" role="heading" aria-level="1">Datos <br> Revision Tecnica</h1>
+        	</div><!-- /header -->
+	<div id="result">
+	    <div data-role="content" class="ui-content" role="main">
+       
+        <div data-role="fieldcontain" class="ui-field-contain ui-body ui-br">
+		
+       
+        	
+             <span id="MainContent_lbltablaCertificadoRT">   <table id="certificadoRT" class="altrowstable">  <tbody><tr>     <td>    <label><strong>PLACA PATENTE</strong>: BBZZ11</label>    </td>   </tr>  <tr>     <td>    <label><strong>Marca</strong>:CHEVROLET </label>    </td>   </tr>   <tr>     <td>     <label><strong>Tipo</strong>: CAMIONETA (CAP. DE CARGA MENOR A 1.750 KGS.)</label>    </td>   </tr>   <tr>      <td>     <label><strong>Modelo</strong>:  MONTANA SPORT II RC 1.8</label>      </td>     </tr>     <tr>      <td>      <label><strong>Año Fab.</strong>: 2008 </label>      </td>   </tr>   <tr>          <td>           <label><strong>REVISION TECNICA</strong></label>         </td>     </tr>   <tr>          <td>           <label><strong>Region</strong>:  VII DEL MAULE</label>         </td>     </tr>     <tr>        <td>      <label><strong>N° Cert</strong>: B072300000078934</label>        </td>    </tr>     <tr>        <td>       <label><strong>Fecha</strong>: 24-02-2025</label>       </td>   </tr>    <tr>      <td>        <label><strong>Estado</strong>: Aprobada</label>      </td>    </tr>     <tr>      <td>         <label><strong>Fecha Venc.</strong>: 24-02-2026</label>       </td>   </tr>      <tr>       <td>         <label><strong>Nombre PRT</strong>: REVISIONES MAULE LTDA</label>       </td>    </tr>     <tr>       <td>         <label><strong>Dirección PRT</strong>: AVDA. SAN MIGUEL 4413, TALCA</label>       </td>    </tr>      <tr>          <td>           <label><strong>REVISION GASES</strong></label>         </td>     </tr>   <tr>          <td>           <label><strong>Region</strong>:  VII DEL MAULE</label>         </td>     </tr>     <tr>        <td>      <label><strong>N° Cert</strong>: B072300000078934</label>        </td>    </tr>     <tr>        <td>       <label><strong>Fecha</strong>: 24-02-2025</label>       </td>   </tr>    <tr>      <td>        <label><strong>Estado</strong>: Aprobada      </label></td>    </tr>     <tr>      <td>         <label><strong>Fecha Venc.</strong>: 24-02-2026</label>       </td>   </tr>      <tr>       <td>         <label><strong>Nombre PRT</strong>: REVISIONES MAULE LTDA.</label>       </td>    </tr>     <tr>       <td>         <label><strong>Dirección PRT</strong>: AVDA. SAN MIGUEL 4413, TALCA</label>       </td>    </tr>      </tbody></table> </span>
+
+                   
+       
+           
+
+            <div class="ui-body ui-body-b">
+		
+		</div> 
+        
+         </div> 
+  </div>
+      </div>
+        <div data-role="footer" data-theme="b" class="ui-footer ui-bar-b" role="contentinfo">
+		<h4 class="ui-title" tabindex="0" role="heading" aria-level="1">Ministerio de Transporte <br> y Telecomunicaciones</h4>
+	</div><!-- /footer -->	
+				
+
+
+		</div><!-- /page -->
+    <div class="ui-loader ui-body-a ui-corner-all" style="top: 348.3px;"><span class="ui-icon ui-icon-loading spin"></span><h1>loading</h1></div></form>
+
+</body></html>
